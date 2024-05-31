@@ -231,9 +231,30 @@
 # MyMethod{|i|puts "Hello from Block #{i}"}
 
  
+#    pritn the even number and odd number 4 elmanet number 
+#  arr = [ 101,120,14,7,8,9]
+#  count = 0
+#   while count < arr.size
+#      if (arr[count] % 2 == 0)
+#        puts " print the even no #{arr[count]}"
+#        else
+#         puts  "other wish odd #{arr[count]}"
+#        end
+#        count += 1
+#       end
 
- array = [ 101,120,14,7,8,9]
-  puts  " The array name"
-  index = gets.chomp.to_i
-  item =  array.fetch(index)
-    puts "city name is #{item}"
+  # print  the sum  of elemant and count the number
+    arr = [ 20,30,52,40,60]
+  
+     puts "  print the array of size #{arr}"
+     num = 0
+     sum = 0
+      while num < arr.size
+         sum  =  sum + arr[num]
+          num = num + 1
+      end 
+      print "  print the  calculat  #{sum}"
+
+
+
+ 
