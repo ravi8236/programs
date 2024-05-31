@@ -409,15 +409,324 @@
 #      number = number+1
 #  end
 
-puts "enter the voteing"
-age = gets.chomp.to_i
-while(age >=18)
-     age= age-1
-     puts " this is vaild voting =#{age}"
-           if ( age>=32)
-               puts "you can valid =#{age}"
-               else
-                    puts "vots can not voting"
-           end
-       
-end
+# puts "enter the voteing"
+# age = gets.chomp.to_i
+# while(age >=18)
+#      age= age-1
+#      puts " this is vaild voting =#{age}"
+#            if ( age>=32)
+#                puts "you can valid =#{age}"
+#                else
+#                     puts "vots can not voting"
+#            end
+# loop do
+# puts "enter the passwode"
+# user_input = gets.chomp
+
+
+#   if user_input == 'exit'
+#       puts "Status: Entry Rejected"
+#     break
+# end
+#        puts 'Status: Entry Allowed'
+# end
+# studant =[ "ravi" " moha" "ram" "shubham"]
+#  a =0
+#  while studant.length > a do
+#      s = studant[a]
+#      puts " student elemant  #{s}"
+#      a+= 1
+#  end
+#  puts " student elemant"
+
+# number= 0
+# while number <= 20
+# if number%2==1
+#       puts  "print   #{number}  the (odd) number"
+# else 
+#       puts  "print   #{number}   the  (even) number"
+# end
+# number += 1
+# # end 
+# puts " first number print"
+# num1= gets.chomp.to_i
+# puts " second  number print"
+# num2 = gets.chomp.to_i
+# sum= num1+num2
+# puts " enter the first number #{num1} and #{num2} #{sum}"
+
+# puts " enter the triangle"
+# traingalebase= gets.chomp.to_f
+# puts  " enter the tringlebase"
+# traingalehight = gets.chomp.to_f
+   
+
+# areatraingale = (traingalebase *traingalehight)  /2
+# puts "print the triangle #{areatraingale}"
+
+# puts " enter the even or odd number "
+# number = gets. chomp.to_i
+#  if (number%2==0)
+#       puts " enter the odd number"
+# else
+#      puts " enter the even number"
+# end
+
+# puts " enter the leap year"
+# year= gets.chomp.to_i
+# if((year %400 == 0) && (year %100 == 0)||( year % 4 ==0)&&(year %100!=0))
+#      puts " leap year"
+
+#      else 
+#           puts " this is not leap year"
+#      end
+
+#  puts  " enter the number "
+#  number = gets.chomp.to_i
+#    i= 1 
+#     for i in 1..10
+#      puts " print  the number #{i}"
+#     end
+
+
+# puts "enter the reversh number"
+# n = gets.chomp.to_i
+# while n>=0
+#      puts " revesh number is #{n}"
+#      n -=1
+# end
+
+
+
+#              METHOD TOPICES NAME
+#  def  test_name (ravi =" bio", rahul ="math")
+  
+#      puts " print  the number #{ravi}"
+#      puts " print  the number #{rahul}"
+#  end
+#  def test_medthd 
+#       j = 100
+#       k = 200
+#       l =300
+#       return  j,k,l 
+#       var  = test_medthd
+#       puts var
+#       test_name "subject", "second subject"
+#  test_name
+# def test_medthd 
+#      j = 100
+#      k = 200
+#      l =300
+#      return  j,k,l 
+# end
+#      var  = test_medthd
+#      puts var
+
+
+# def simple(*test)
+#      puts " print the name  #{ test.length}"
+#    for i in 0...test.length
+#      puts " this for value #{test [i]}"
+#     end
+# end
+# simple "mohan", "2",  "f"
+# simple "ram", "2",  "m", " adreesh"
+
+# def test_medthod (a = "ravi", b ="meena")
+#      puts  "first name is #{a}"
+#      puts "second name is#{b}"
+# end
+# test_medthod "my name ", " second_name"
+
+# test_medthod
+
+# def num 
+#      a = 20 
+#      b = 10
+#      sum = a + b
+#      return sum
+# end
+# puts " print the name of #{num}"
+
+
+# puts " enter the  bigger number "
+# num1 = gets.chomp.to_i
+# puts " enter the  second number "
+# num2 = gets.chomp.to_i
+#   if ( num1>num2)
+#      puts "print  the big  number  #{num1}"
+#  else
+#      puts "  than the number #{num2} "
+#  end
+
+
+#  puts " enter the positive and nagtive number "
+#   num =gets.chomp.to_i
+# if (num>0)
+#      puts " print the positive number "
+# else
+#       puts"print  the nagtive number"
+# end
+
+# puts "this is  disibality for this number"
+# num = gets.chomp.to_i
+#   if (num % 3 ==0) && ( num %11 ==0)
+#       puts "print a disibility    for 5 and 11"
+#  else 
+#      puts "print a not disibility    for 5 and 11" 
+#  end
+
+#  puts " print the  vowel and conteand"
+#  ch  = gets.chomp.to_s
+#   if  ( ch == "a" || ch == "e" ||ch == "i" || ch == "o" || ch == "u" )
+
+#      puts  " print a  vowal year"
+#   elsif ( ch >='0')|| ( ch  <= '9')
+#      puts "constsnd  aplchabart"
+#   else
+#    puts "right"
+#   end
+      
+
+#  puts " find the week day"
+#   week = gets.chomp.to_i
+#   if ( week ==1)
+#     puts " monday"
+#     elsif ( week ==2)
+#        puts "tuesday"
+#     else
+#       puts " invaled inputs"
+#     en
+
+#  puts "enter the number "
+#  n =  gets.chomp.to_s
+#  i=1
+#   for i in "a".."z" do
+#     puts i
+#   end
+
+# puts "enter  the even number"
+#   num = gets.chomp.to_i
+#  puts "All even numbers from 1 to #{num} are:"
+#   i = 2
+#   while i <= num
+#    puts i
+#    i += 2
+#   end
+
+
+# even = 0
+# odd = 0
+# for i in 1..10 
+#    if (i%2 == 0)
+#       puts "this is even no =#{i}"
+#       even = even +1
+#    else 
+#       puts "this is odd no =#{i}"
+#       odd = odd +1
+#    end
+# end
+# puts "total even number =#{even}, total odd number =#{odd}"
+
+# puts "enter  the number sum all number "
+# number = gets.chomp.to_i
+# i=1
+# sum=0
+#  for i in 1..number  do
+
+#    sum +=2
+#     puts " sum number is add #{number} and #{sum}"
+#  end
+
+# puts "pritn the multipale" 
+#  num =  gets.chomp. to_i
+#  i=1
+
+#  while  i <=10
+#    puts " pritn  the multipale #{num} and #{i} is  = #{ num*i}"
+
+#    i +=1
+#  end
+   
+# puts "last digit "
+# number =gets.chomp.to_i
+#   first_digit =0
+#    while number != 0
+#        first_digit = number % 10
+#        number= number/10
+#    end
+#    puts " #{first_digit}"
+
+
+# puts " print the number "
+# number = gets.chomp.to_i
+# # reversh =0
+# #  while ( number != 0)
+# #    reversh = reversh*10 + number % 10
+# #    puts " #{reversh}"
+# #    number/=10
+# #  end
+
+#  puts "enter the factortracl"
+#  num = gets.chomp.to_i
+#  fact = 1
+#   for i in 1..num
+#    fact *=i
+
+#   end
+#   puts  "enter  the #{fact}"
+
+#  puts "  enter the project number"
+#  number = gets.chomp.to_i
+#  num= number
+#  revarsh = 0
+#     while ( number !=0)
+#       revarsh= ( revarsh*10)+ (number  % 10)
+#       number /=10
+#     end 
+#     if revarsh == num
+#       puts "nummber #{num}"
+#       else
+#          puts "print  not palindram number #{ num}"
+
+#          end
+
+
+# a = gets.chomp.to_i   
+# if a >= 18   
+#   puts "You are eligible to vote."  
+#   else
+#    puts  " not eligible to vote" 
+# end  
+
+# puts "  print   the vowel and consont"
+# ch = gets.chomp.to_s
+# if  (ch = "a" ) || ( ch ="e") ||(ch = "i" ) || ( ch ="o")||( ch = "u") 
+#    puts "charecter =#{ch}"
+#    elsif(ch <="a")&&(ch <="z")
+#       puts "print vowal #{ch}"
+#  else 
+#    puts " consonat #{ch} "
+#  end
+
+
+
+ 
+   # for i in "a".."z" do
+   #    puts i
+   # end
+     
+
+   #  puts " print then  pailadram no"
+   #    num = gets.chomp.to_i
+   #  number = num
+   #  rev = 0
+   #     while ( num !=0)
+   #        rev = ( rev * 10) + (num % 10)
+   #         num /= 10
+   # end 
+   #     if ( rev == number)
+   #     puts " print the number  #{rev}"
+   #  else 
+   #       puts " print the  notnumber #{rev} "
+   # end
